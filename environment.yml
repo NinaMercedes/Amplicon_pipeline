@@ -1,0 +1,24 @@
+name: amplicon-pipeline
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - samtools>=1.18
+  - bcftools>=1.18
+  - bwa>=0.7.17
+  - minimap2>=2.26
+  - bedtools>=2.31
+  - mosdepth>=0.3.6
+  - seqkit>=2.6
+  - fastp>=0.23
+  - fastplong
+  - tabix
+  - gatk4>=4.5
+  - medaka>=1.11
+  - clair3>=1.0.10
+  - pip
+  - pip:
+      - pandas
+      - numpy
